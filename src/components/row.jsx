@@ -1,12 +1,18 @@
 import React from "react";
-import {View, Text} from 'react-native'
 
-const row = (props) =>{
-    <View>
-        <Text>{props.route}</Text>
-        <Text>{props.routes}</Text>
-        
-    </View>
+const Row = (props) =>{
+  const [isImageExpanded, setIsImageExpanded] = React.useState(false);
+  const toggleImageExpansion = () => {
+    setIsImageExpanded(!isImageExpanded);
+  };
+   return(
+    <div>
+        <strong>{props.data.code} -</strong> {props.data.description} 
+        <img src={props.data.img} width={isImageExpanded ? 200 :50}
+        onClick={toggleImageExpansion}
+        style={{ cursor:'pointer' }}/>     
+    </div>
+   )
 }
 
-export default row;
+export default Row;

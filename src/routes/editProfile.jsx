@@ -1,21 +1,20 @@
 import React from "react"
-import Navbar from "../components/navbar"
-import Footer from "../components/footer"
-import Cookies from "universal-cookie";
-import axios from "axios";
-const cookies = new Cookies();
+
 class EditProfile extends React.Component {
   
   state ={
     form:{
-      _id:`${cookies.get('_id')}` || 0,
-      nombre:`${cookies.get('firstName')}` || 'Nombre placeholder',
-      apellido:`${cookies.get('lastName')}` || 'Apellido placeholder',
-      age:`${cookies.get('age')}` || 0,
-      correo:`${cookies.get('email')}` || 'example@mail.com',
+      _id: 0,
+      nombre: 'Nombre placeholder',
+      apellido: 'Apellido placeholder',
+      age: 0,
+      correo: 'example@mail.com',
       password:'',
-      contactNumber:`${cookies.get('contactNumber')}` || 302
+      contactNumber:302
     }
+  }
+  sendData = () =>{
+    window.location.href='./'
   }
 
   handleChange = async e =>{
@@ -30,7 +29,6 @@ class EditProfile extends React.Component {
   render(){ 
     return (
       <div>
-        <Navbar/>
         <div className="flex-wrapper-centered">
           <div className="content-wrapper">
             <h1 className="reg">Editar cuenta</h1>
@@ -49,7 +47,6 @@ class EditProfile extends React.Component {
             </form>
           </div>
         </div>
-        <Footer/>
       </div>
     )
   }

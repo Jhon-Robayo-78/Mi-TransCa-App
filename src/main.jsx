@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Routes from './Routes.jsx'
+import RoutesWeb from './Routes.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Routes />
+    <RoutesWeb />
   </React.StrictMode>,
 )

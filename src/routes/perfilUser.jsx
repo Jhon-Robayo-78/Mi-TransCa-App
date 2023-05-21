@@ -1,7 +1,4 @@
 import React from "react";
-import Navbar from "../components/navbar";
-import Footer from "../components/footer"
-
 
 class Profile extends React.Component{
     handleChange = () =>{
@@ -15,7 +12,6 @@ class Profile extends React.Component{
     render(){
         return(
         <div className="profile">
-            <Navbar/>
             <div className="flex-wrapper-centered">
                 <div className="content-wrapper" style={{textAlign:"center"}}>
                     <img src="./account-settings.svg" className="svg-image-colored" alt="account"/>
@@ -29,7 +25,6 @@ class Profile extends React.Component{
                     <button style={{backgroundColor:"red",color:"white",marginLeft:"20px"}} onClick={()=>this.handleChange()}>Salir</button>
                 </div>
             </div>
-            <Footer/>
         </div>
         )
     }

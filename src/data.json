@@ -1,0 +1,166 @@
+{
+    "routes": [
+        {
+            "name":"Ruta T100E",
+            "description":"La línea T100E de autobús (Centro - Portal) tiene 7 paradas desde Estación La Bodeguita hasta Patio Portal.",
+            "subclass":"T",
+            "code":"T100E",
+            "img":"../public/img/RT100E.png"
+        },{
+            "name":"Ruta T101",
+            "description":"La línea T101 de autobús (Centro - Portal) tiene 12 paradas desde Estación La Bodeguita hasta Patio Portal.",
+            "subclass":"T",
+            "code":"T101",
+            "img":"../public/img/RT101.png"
+        },{
+            "name":"Ruta T102",
+            "description":"La línea T102 de autobús (Crespo - Portal) tiene 23 paradas desde La Carbonera - Carrera 8 hasta Patio Portal.",
+            "subclass":"T",
+            "code":"T102",
+            "img":"../public/img/RT102.png"
+        },{
+            "name":"Ruta T103",
+            "description":"La línea T103 de autobús (Portal - Bocagrande) tiene 18 paradas desde Patio Portal hasta Club Cartagena.",
+            "subclass":"T",
+            "code":"T103",
+            "img":"../public/img/RT103.png"
+        },{
+            "name":"Ruta A101",
+            "description":"El autobús A101(La Carolina - Portal) es una línea circular con 27 paradas, comenzando en Patio Portal.",
+            "subclass":"A",
+            "code":"A101",
+            "img":"../public/img/A101.jpg"
+        },{
+            "name":"Ruta A102",
+            "description":"El autobús A102(Portal - U. Tecnológica) es una línea circular con 24 paradas, comenzando en Patio Portal.",
+            "subclass":"A",
+            "code":"A102",
+            "img":"../public/img/A102.jpg"
+        },{
+            "name":"Ruta A103",
+            "description":"La línea A103 de autobús (Mandela - San Fernando - Santa Lucía) tiene 15 paradas desde Inicio Mandela hasta Estación Santa Lucía.",
+            "subclass":"A",
+            "code":"A103",
+            "img":"../public/img/A103.jpg"
+        },{
+            "name":"Ruta A104",
+            "description":"El autobús A104(Santa Lucía - Socorro - Mandela) es una línea circular con 37 paradas, comenzando en Estación Santa Lucía.",
+            "subclass":"A",
+            "code":"A104",
+            "img":"../public/img/A104.jpg"
+        },{
+            "name":"Ruta A105",
+            "description":"La línea A105 de autobús (Santa Lucía - Socorro - Simón Bolivar) tiene 16 paradas desde Estación Santa Lucía hasta Entrada Simón Bolívar.",
+            "subclass":"A",
+            "code":"A105",
+            "img":"../public/img/A105.jpg"
+        },{
+            "name":"Ruta A107",
+            "description":"",
+            "subclass":"A",
+            "code":"A107",
+            "img":"../public/img/A107.jpg"
+        },{
+            "name":"Ruta A108",
+            "description":"La línea A108 de autobús (Campestre - Santa Lucía) tiene 16 paradas desde Bellavista Mz 1 Lote 5 hasta Estación Santa Lucía.",
+            "subclass":"A",
+            "code":"A108",
+            "img":"../public/img/A108.jpg"
+        },{
+            "name":"Ruta A111",
+            "description":"El autobús A111(Nuevo Bosque - Santa Lucía) es una línea circular con 26 paradas, comenzando en Estación Santa Lucía.",
+            "subclass":"A",
+            "code":"A111",
+            "img":"../public/img/A111.jpg"
+        },{
+            "name":"Ruta A114",
+            "description":"El autobús A114(Portal - Flor Del Campo) es una línea circular con 34 paradas, comenzando en Patio Portal.",
+            "subclass":"A",
+            "code":"A114",
+            "img":"../public/img/A114.jpg"
+        },{
+            "name":"Ruta A117",
+            "description":"El autobús A117(Pozón - Villa Estrella - Portal) es una línea circular con 30 paradas, comenzando en Patio Portal.",
+            "subclass":"A",
+            "code":"A117",
+            "img":"../public/img/A117.jpg"
+        },{
+            "name":"Línea C001",
+            "description":"La línea C001 de autobús (Centro → Manga → Ciudadela 2000) tiene 50 paradas desde Parque De La Marina hasta Colegio Ciudadela 2000.",
+            "subclass":"C",
+            "code":"c001",
+            "img":"../public/img/Rutas_C.png"
+        },{
+            "name":"Ruta X101",
+            "description":"La primera parada de la línea X101 de autobús es Estación La Bodeguita y la última parada es Parque Huellas De Alberto Uribe",
+            "subclass":"X",
+            "code":"X101",
+            "img":"../public/img/Rutas_X_101.png"
+        },{
+            "name":"Ruta X102",
+            "description":"La primera parada de la línea X102 de autobús es Patio Portal y la última parada es Estación La Bodeguita.",
+            "subclass":"X",
+            "code":"X102",
+            "img":"../public/img/Rutas_X_102.png"
+        },{
+            "name":"Ruta X103",
+            "description":"La línea X103 de autobús (Centro - Consulado - Variante) tiene 28 paradas desde Estación La Bodeguita hasta Sena - Entrada Rodeo.",
+            "subclass":"X",
+            "code":"X103",
+            "img":"../public/img/Rutas_X_103.png"
+        },{
+            "name":"Ruta X104",
+            "description":"La línea X104 de autobús (Centro - Terminal) tiene 27 paradas desde Estación La Bodeguita hasta Terminal De Transporte De Cartagena.",
+            "subclass":"X",
+            "code":"X104",
+            "img":"../public/img/Rutas_X_104.png"
+        },{
+            "name":"Ruta X105",
+            "description":"La línea X105 de autobús (Bocagrande - Crisanto Luque - Ciudadela 200) tiene 42 paradas desde Club Cartagena hasta Hogar De Bien Mis Sueños.",
+            "subclass":"X",
+            "code":"X105",
+            "img":"../public/img/Rutas_X_105.png"
+        },{
+            "name":"Ruta X106",
+            "description":"La línea X106 de autobús (Centro - Variante) tiene 19 paradas desde Estación La Bodeguita hasta Sena - Entrada Rodeo.",
+            "subclass":"X",
+            "code":"X106",
+            "img":"../public/img/Rutas_X_106.png"
+        }
+    ],
+    "routes to exit":[
+        {
+            "code":"A101",
+            "time":"12:20 PM"
+        },
+        {
+            "code":"A114",
+            "time":"12:25 PM"
+        },
+        {
+            "code":"A117",
+            "time":"12:40 PM"
+        }
+    ],
+    "news":[
+        {
+            "title":"Jornada de Personalización y Activación de Tarjetas Transcaribe",
+            "date":"May 09 2023",
+            "img":"../public/img/new01.jpg",
+            "description":"Esta semana tendremos jornada de Personalización y Activación de Tarjetas Transcaribe 🚍",
+            "url":"https://www.facebook.com/TranscaribeCTG/photos/a.1686434288063405/9622936934413061/"
+        },{
+            "title":"Desvío Temporal",
+            "date":"May 15 2023",
+            "img":"../public/img/new02.jpg",
+            "description":"Ruta C001, en sentido Ciudadela-Centro, baja por la Algodonera hasta Gestión Salud San Fernando, para tomar la Calle del Perro y salir a la Calle 5, retomando su recorrido habitual. En sentido Centro-Ciudadela, harán el mismo desvío en sentido contrario. Ruta A104, se desvía en ambos sentidos por la Calle del Perro.",
+            "url":"https://www.facebook.com/photo?fbid=9656530531053701&set=a.1686434288063405"
+        },{
+            "title":"Desvío Temporal",
+            "date":"May 18 2023",
+            "img":"../public/img/new03.jpg",
+            "description":"Se activan desvíos. Rutas que llegan a estación Bodeguita, se desvían por Puerto Duro. Última parada: Chambacú. Rutas T102, T103 y X105 se desvían por Las Tenazas y Avenida Santander en ambos sentidos.",
+            "url":"https://www.facebook.com/photo?fbid=9674290085944412&set=a.1686434288063405"
+        }
+    ]
+}

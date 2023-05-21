@@ -1,6 +1,4 @@
 import React from "react"
-import Navbar from "../components/navbar";
-import Footer from "../components/footer"
 
 class SignUp extends React.Component {
   
@@ -32,7 +30,6 @@ class SignUp extends React.Component {
   render(){ 
     return (
       <div>
-        <Navbar/>
         <div className="flex-wrapper-centered">
           <div className="content-wrapper">
             <h1>Registra tu cuenta</h1>
@@ -53,7 +50,6 @@ class SignUp extends React.Component {
             </form>
           </div>
         </div>
-        <Footer/>
       </div>
     )
   }

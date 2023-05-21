@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import Home from './routes/Home';
 import RoutesT from './routes/routesT';
 import UserView from './routes/UserView';
@@ -9,15 +9,18 @@ import SignUp from './routes/signUp';
 import FAQ from './routes/FAQ';
 import EditProfile from './routes/editProfile';
 import Profile from './routes/perfilUser';
+import Layout from './components/LayOut';
 
-class Routes extends React.Component{
+//data 
+import Data from './data.json'
+
+class RoutesWeb extends React.Component{
   render(){
     return(
       <div className='AppRoutes'>
-        <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<Home/>} />
-          <Route path='/routes' element={<RoutesT/>} />
+        <Layout>
+          <Route path='/' exact element={<Home data={{ noticias:Data["news"], salidas:Data["routes to exit"] }}/>} />
+          <Route path='/routes' element={<RoutesT data={Data["routes"]}/>} />
           <Route path='/UserView' element={<UserView/>} />
           <Route path='/login' element={<Login/> } />
           <Route path='/SignUp' element={<SignUp/> } />
@@ -26,11 +29,11 @@ class Routes extends React.Component{
           <Route path='/Profile' element={<Profile/> } />
           {/* pagina no encontrada */}
           <Route path="*" element={<Notfound />} />
-        </Routes>
-        </BrowserRouter>
+        </Layout>
+        
       </div>
     )
   }
 }
 
-export default Routes
+export default RoutesWeb;

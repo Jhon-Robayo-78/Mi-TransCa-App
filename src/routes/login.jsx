@@ -1,8 +1,5 @@
 import React from "react"
 import { Link } from "react-router-dom";
-import Navbar from "../components/navbar";
-import Footer from "../components/footer"
-
 
 class Login extends React.Component {
   state={
@@ -26,7 +23,6 @@ class Login extends React.Component {
   render(){
     return (
       <div className="inputForms">
-        <Navbar/>
         <div className="flex-wrapper-centered">
           <div className="content-wrapper">
             <h1 style={{fontWeight:"400", fontSize: "50px",  textAlign:"center"}}>Bienvenido</h1>
@@ -40,7 +36,6 @@ class Login extends React.Component {
             <p>No tienes cuenta? <Link to={"/signup"}>crea una</Link></p>
           </div>
         </div>
-        <Footer/>                
       </div>
     )
   } 
