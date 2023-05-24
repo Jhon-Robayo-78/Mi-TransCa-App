@@ -3,6 +3,7 @@ import './css/RouteComponent.css';
 
 const RouteComponent = ({ routes }) => {
   const [expandedSubclass, setExpandedSubclass] = useState(null);
+  const [expandedImage, setExpandedImage] = useState(null);
 
   const handleExpand = (subclass) => {
     if (expandedSubclass === subclass) {
@@ -10,6 +11,13 @@ const RouteComponent = ({ routes }) => {
     } else {
       setExpandedSubclass(subclass);
     }
+  };
+  const handleImageClick = (img) => {
+    setExpandedImage(img);
+  };
+
+  const handleCloseImage = () => {
+    setExpandedImage(null);
   };
 
   const groupedRoutes = routes.reduce((acc, route) => {
@@ -36,13 +44,22 @@ const RouteComponent = ({ routes }) => {
                     <h2>{route.name}</h2>
                     <p>{route.description}</p>
                   </div>
-                  <img src={route.img} alt={route.name}/>
+                  <img 
+                    src={route.img} 
+                    alt={route.name} 
+                    onClick={() => handleImageClick(route.img)}
+                  />
                 </div>
               ))}
             </div>
           )}
         </div>
       ))}
+      {expandedImage && (
+        <div className="modal" onClick={handleCloseImage}>
+          <img src={expandedImage} alt="Expanded" />
+        </div>
+      )}
     </div>
   );
 };
