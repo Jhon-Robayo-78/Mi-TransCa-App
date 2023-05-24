@@ -53,6 +53,20 @@ a:-webkit-any-link {
   width: 80px;
 }
 
+.optionRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0 15px 0;
+  border-bottom: solid 1.5px rgb(53,53,53,.5);
+  
+}
+
+.optionRow img {
+  width: 50px;
+  
+}
+
 input[type=text] {
   font-family: 'Montserrat', sans-serif;
   border: none;
