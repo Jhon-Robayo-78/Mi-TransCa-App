@@ -1,0 +1,15 @@
+.RowNews {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.NewsImg img{
+    position: relative;
+    width: 94px;
+    right: 0;
+}
+
+.NewsText {
+    margin-right: 20px;
+}

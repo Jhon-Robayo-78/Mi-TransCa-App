@@ -1,0 +1,7 @@
+.RowEta {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+}

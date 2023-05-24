@@ -6,22 +6,24 @@ class Home extends React.Component {
     render(){
         return(
             <div className="Container-home">
-                <div className="Horario">
-                <table className="TablaHorarios">
-                    <thead>
-                        <tr>
-                            <th colspan="2">En cuánto llega tu bus?</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                       {this.props.data.salidas.map( data =><RowTable key={data.code} data={data}/>)}
-                    </tbody>
-                    </table>
+                <div className="content-wrapper">
+                    <h1>En cuánto llega tu bus?</h1>
+                    <div className="flex-container-spaced" style={{width:"45%"}}>
+                        <span>Estación</span>
+                        <input type="text" className="form-control" placeholder="La Bodeguita" disabled/>
+                    </div> 
+                    {this.props.data.salidas.map( data =><RowTable key={data.code} data={data}/>)}
                 </div>
-                <div className="messages">
-                   <Link to="https://www.colcard.com/puntos-de-recarga/"> <h4>puntos de recarga más cercanos</h4><img src="" width={50} alt="imagen de direccionador"/> </Link>
+                <div className="content-wrapper">
+                   <Link to="https://www.colcard.com/puntos-de-recarga/"> 
+                        <div className="flex-container-spaced">
+                            <h1>Busca puntos de recarga cercanos</h1>
+                            <img src="./nearme.svg" alt="imagen de direccionador"/> 
+                        </div>
+                   </Link>
                 </div>
-                <div className="NewsPlace">
+                <div className="content-wrapper">
+                    <h1>Noticias más recientes</h1>
                     {this.props.data.noticias.map(data =><RowNews key={data.date} data={data}/>)}
                 </div>
             </div>

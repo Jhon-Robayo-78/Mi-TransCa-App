@@ -1,15 +1,16 @@
 import React from "react";
-import Footer from "./footer";
 import Navbar from "./navbar";
+import TopBanner from "./TopBanner";
 import { BrowserRouter, Routes } from 'react-router-dom';
 const Layout = ({children}) => {
     return(
         <BrowserRouter>
-            <Navbar/>
+            <TopBanner/>
             <Routes>
                 {children}
             </Routes>
-            <Footer/>
+            <Navbar/>
+            <br/><br/><br/><br/>
         </BrowserRouter>
     )
 }

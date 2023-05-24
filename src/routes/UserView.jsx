@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-class UserView extends React.Component{
+class userview extends React.Component{
     render(){
         return(
             <div className="UserView">
@@ -32,4 +32,4 @@ class UserView extends React.Component{
     }
 }
 
-export default UserView;
+export default userview;
