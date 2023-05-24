@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 class Home extends React.Component {
     render(){
         return(
-            <div className="Container-home">
+            <div>
                 <div className="content-wrapper">
                     <h1>En cuánto llega tu bus?</h1>
                     <div className="flex-container-spaced" style={{width:"45%"}}>
-                        <span>Estación</span>
+                        <p>Estación</p>
                         <input type="text" className="form-control" placeholder="La Bodeguita" disabled/>
                     </div> 
                     {this.props.data.salidas.map( data =><RowTable key={data.code} data={data}/>)}

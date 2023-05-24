@@ -32,7 +32,7 @@ const Navbar = () =>{
     <Link to="/UserView">
       <div className="navbarOption">
         <img src="/accountIcon.svg"/>
-        <span style={{ textDecoration: 'none' }}>Mi Transca</span>
+        <span style={{ textDecoration: 'none' }}>MiTransca</span>
       </div>
     </Link>
   </div>

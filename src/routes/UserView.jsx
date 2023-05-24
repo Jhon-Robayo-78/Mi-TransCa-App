@@ -6,24 +6,24 @@ class userview extends React.Component{
         return(
             <div className="content-wrapper">
                 <Link to="/Profile" ><div className="optionRow">
-                    <h3>Información de cuenta</h3><img src="accountIconFilled.svg" alt="IconUser" />
+                    <h1>Información de cuenta</h1><img src="accountIconFilled.svg" alt="IconUser" />
                     </div>
                 </Link>
                 <Link to="/edit" ><div className="optionRow">
-                     <h3>Actualizar datos</h3><img src="editAccount.svg" alt="IconConfigUser" />
+                     <h1>Actualizar datos</h1><img src="editAccount.svg" alt="IconConfigUser" />
                     </div>
                 </Link>
                 <Link to="" ><div className="optionRow">
-                     <h3>Desactivar Tarjeta</h3><img src="deactivate.svg" alt="IconSafe" />
+                     <h1>Desactivar Tarjeta</h1><img src="deactivate.svg" alt="IconSafe" />
 
                     </div>
                 </Link>
                 <Link to="" ><div className="optionRow">
-                    <h3>Enviar un reporte</h3><img src="report.svg" alt="IconReport" />
+                    <h1>Enviar un reporte</h1><img src="report.svg" alt="IconReport" />
                     </div>
                 </Link>
                 <Link to="/FAQ" ><div className="optionRow">
-                    <h3>Terminos y condiciones</h3><img src="terms.svg" alt="Icon" />
+                    <h1>Terminos y condiciones</h1><img src="terms.svg" alt="Icon" />
                     </div>
                 </Link>
             </div>  

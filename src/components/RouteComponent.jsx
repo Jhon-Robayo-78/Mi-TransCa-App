@@ -33,8 +33,8 @@ const RouteComponent = ({ routes }) => {
       {Object.entries(groupedRoutes).map(([subclass, subclassRoutes]) => (
         <div key={subclass} className='content-wrapper' >
           <div className='flex-container-spaced'>
-            <h1>{subclass}</h1>
-            <img onClick={() => handleExpand(subclass)} src='/expand.svg' style={{cursor:"pointer"}}/>
+            <h1 className='subclassText'>{subclass}</h1>
+            <img className='expandIcon' onClick={() => handleExpand(subclass)} src='/expand.svg' />
           </div>
           {expandedSubclass === subclass && (
             <div>

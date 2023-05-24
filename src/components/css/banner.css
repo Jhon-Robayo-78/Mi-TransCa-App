@@ -10,6 +10,7 @@
 #bannerLogo {
     width: 350px;
 }
+
 .saldo {
     text-align: center;
     font-size: 1.5rem;
@@ -28,7 +29,27 @@
 
 @media (max-width: 600px){
     .banner{
+        min-height: 200px;
         background-image: url('/img/header_mobile.png');
         background-size: cover;
+    }
+
+    .subclassText {
+        width: 80%;
+    }
+    .saldo{
+        font-size: 1rem;
+    }
+
+    .bannerText{
+        font-size: 0.7rem;
+    }
+
+    #bannerLogo {
+        width: 238px;
+    }
+
+    .bannerIcon {
+        width: 55px;
     }
 }

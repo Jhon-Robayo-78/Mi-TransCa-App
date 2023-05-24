@@ -1,11 +1,11 @@
 #root {
   font-family: 'Montserrat', sans-serif;
-  background-color: #FBFBFB;
   color: #353535;
 }
 
 body {
   margin: 0;
+  background-color: #FBFBFB;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -76,5 +76,17 @@ input[type=text] {
 }
 
 @media (max-width: 600px){
-  
+  .content-wrapper {
+    width: 80%;
+    padding: 25px;
+    font-size: 0.7rem;
+  }
+
+  .flex-container-spaced {
+    width: 100% !important;
+  }
+
+  .flex-container-spaced p {
+    font-size: 1rem;
+  }
 }

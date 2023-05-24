@@ -5,3 +5,13 @@
     justify-content: space-between;
     width: 45%;
 }
+
+@media (max-width: 600px) {
+    .RowEta {
+        width: 80%;
+    }
+
+    .RowEta img{
+        width: 30px;
+    }
+}
