@@ -1,13 +1,14 @@
-import React from "react";
-import Row from "../components/row";
-class RoutesT extends React.Component{
-    render(){
-        return(
-        <div className="RoutesT">
-            {this.props.data.map( data =><Row key={data.code} data={data}/>)}
-        </div>
-        )
-    } 
+import React, { useEffect, useState } from 'react';
+import routes from "./routesData.json"
+import RouteComponent from '../components/RouteComponent';
+
+const RoutesT = ()=>{
+    
+        return (
+            <div>
+              <RouteComponent routes={routes["routes"]} />
+            </div>
+          );
 }
 
 export default RoutesT;

@@ -1,0 +1,31 @@
+.RowNews {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1.5px rgb(53,53,53,.5);
+    padding: 15px 0 15px 0;
+    margin: 15px;
+}
+
+.NewsImg img{
+    position: relative;
+    width: 94px;
+    right: 0;
+}
+
+.NewsText {
+    margin-right: 20px;
+}
+
+@media (max-width: 600px) {
+        
+    .NewsImg img{
+        position: relative;
+        width: 94px;
+        right: 0;
+    }
+    
+    .NewsText {
+        font-size: 0.8rem;
+        margin-right: 20px;
+    }
+}

@@ -1,30 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-class UserView extends React.Component{
+class userview extends React.Component{
     render(){
         return(
-            <div className="UserView">
-                {/* Baner */}
-                <Link to="/Profile" ><div>
-                    <h4>Info de cuenta</h4><img src="" alt="IconUser" />
+            <div className="content-wrapper">
+                <Link to="/Profile" ><div className="optionRow">
+                    <h1>Información de cuenta</h1><img src="accountIconFilled.svg" alt="IconUser" />
                     </div>
                 </Link>
-                <Link to="/edit" ><div>
-                     <h4>Actualizar datos</h4><img src="" alt="IconConfigUser" />
+                <Link to="/edit" ><div className="optionRow">
+                     <h1>Actualizar datos</h1><img src="editAccount.svg" alt="IconConfigUser" />
                     </div>
                 </Link>
-                <Link to="" ><div>
-                     <h4>Desactivar Tarjeta</h4><img src="" alt="IconSafe" />
+                <Link to="" ><div className="optionRow">
+                     <h1>Desactivar Tarjeta</h1><img src="deactivate.svg" alt="IconSafe" />
 
                     </div>
                 </Link>
-                <Link to="" ><div>
-                    <h4>Enviar un reporte</h4><img src="" alt="IconReport" />
+                <Link to="" ><div className="optionRow">
+                    <h1>Enviar un reporte</h1><img src="report.svg" alt="IconReport" />
                     </div>
                 </Link>
-                <Link to="/FAQ" ><div>
-                    <h4>Terminos y cond,</h4><img src="" alt="Icon" />
+                <Link to="/FAQ" ><div className="optionRow">
+                    <h1>Terminos y condiciones</h1><img src="terms.svg" alt="Icon" />
                     </div>
                 </Link>
             </div>  
@@ -32,4 +31,4 @@ class UserView extends React.Component{
     }
 }
 
-export default UserView;
+export default userview;
